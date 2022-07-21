@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navBar">
+            <div>
+                <h1>Weartake</h1>
+            </div>
+            <div id="listNav">
+                <button data-tag='Todos' class="buttonMenu active">Todos</button>
+                <button data-tag='Acessórios'class="buttonMenu">Acessórios</button>
+                <button data-tag='Calçados'class="buttonMenu">Calçados</button>
+                <button data-tag='Camisetas'class="buttonMenu">Camisetas</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="vitrine">
+            <ul class="produtos" id="produtosVitrini"> </ul>   
+        </section>
+        <div class="lateral">
+            <aside class="pesquisa">
+                <input class="pesquisaInput" type="text" placeholder="    Digite aqui sua pesquisa">
+                <button class="pesquisaButton">Pesquisar</button>
+            </aside>
+            <aside class="carrinho">
+                <h2 class="carrinhoTitulo">Carrinho de compras</h2>
+                <ul class="itensCarrinho">
+                   <!---<li id="vazio">
+                        <h3>Carrinho vazio</h3>
+                        <p>Adicione itens</p>
+                   </li>--->
+                </ul>
+                <div class="resumo">
+                    <span id="quantidade">Quantidade:</span> 
+                    <span id="valor">Total:</span>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="./assets/dataProdutos.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
