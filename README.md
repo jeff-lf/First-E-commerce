@@ -1,4 +1,8 @@
-# First-E-commerce
-This is my first e-commerce made in the first module of kenzie's course
+# Primeiro E-commerce
+---
+## [Veja como ficou!](https://jeff-lf.github.io/First-E-commerce/)
 
-[See the result](https://jeff-lf.github.io/First-E-commerce/)
+### Objetivos
+
+Praticar as ferramentas recem aprendidas, HTML, CSS e Javascript.
+
